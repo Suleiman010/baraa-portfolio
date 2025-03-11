@@ -12,7 +12,7 @@ import data from '../data/data.json';
 function Contact() {
 	const { contact } = data;
 	return (
-		<section id="contact" className="py-20 md:py-32 bg-gray-50">
+		<section id="contact" className="py-20 md:py-32 bg-gray-50 overflow-hidden">
 			<div className="container mx-auto px-4">
 				<h2
 					data-aos="fade-up"
