@@ -1,7 +1,9 @@
 import { FaAngleDoubleDown } from 'react-icons/fa';
 import ResumeButton from '../ui/ResumeButton';
+import data from '../data/data.json';
 
 function Hero() {
+	const { hero } = data;
 	return (
 		<section className="hero-bg h-screen flex items-center justify-center text-white relative">
 			<div className="container mx-auto px-4 text-center relative z-10">
@@ -10,7 +12,7 @@ function Hero() {
 					data-aos-duration="1000"
 					className="text-5xl md:text-7xl font-bold mb-4 tracking-tight"
 				>
-					ALBRAA ALMASHWAKI
+					{hero.name}
 				</h1>
 				<p
 					data-aos="fade-up"
@@ -18,7 +20,7 @@ function Hero() {
 					data-aos-delay="200"
 					className="text-xl md:text-2xl mb-10 leading-relaxed"
 				>
-					Dedicated Physiotherapist & Rehabilitation Specialist
+					{hero.title}
 				</p>
 				<div
 					data-aos="fade-up"

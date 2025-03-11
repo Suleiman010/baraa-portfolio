@@ -1,0 +1,91 @@
+{
+	"hero": {
+		"name": "ALBRAA ALMASHWAKI",
+		"title": "Dedicated Physiotherapist & Rehabilitation Specialist",
+		"button": "Learn More",
+		"scrollText": "Scroll Down"
+	},
+	"about": {
+		"title": "About Me",
+		"description": [
+			"I am ALBRAA ALMASHWAKI, a seasoned physiotherapist with extensive experience in rehabilitation therapy and sports medicine. My practice focuses on evidence-based treatments tailored to each patient's unique needs, combining traditional physiotherapy techniques with modern approaches to achieve optimal results.",
+			"With expertise in manual therapy, exercise prescription, and functional rehabilitation, I help patients recover from injuries, manage chronic conditions, and improve their overall quality of life through personalized care plans and ongoing support."
+		],
+		"specializations": {
+			"title": "Specializations",
+			"items": [
+				"Sports Rehabilitation",
+				"Manual Therapy",
+				"Post-operative Rehabilitation",
+				"Chronic Pain Management"
+			]
+		},
+		"education": {
+			"title": "Education",
+			"items": ["Bachelor of Physiotherapy"]
+		},
+		"resumeButton": "View Resume"
+	},
+	"experience": {
+		"title": "Professional Experience",
+		"items": [
+			{
+				"icon": "FaUserMd",
+				"title": "Senior Physiotherapist",
+				"date": "2020 - Present",
+				"company": "Royal Medical Center",
+				"description": "Leading a team of rehabilitation specialists, developing comprehensive treatment plans, and providing hands-on patient care. Specialized in sports injuries and post-operative rehabilitation for high-performance athletes.",
+				"tags": [
+					"Sports Rehabilitation",
+					"Team Leadership",
+					"Clinical Assessment"
+				]
+			},
+			{
+				"icon": "FaRunning",
+				"title": "Physiotherapist",
+				"date": "2016 - 2020",
+				"company": "Elite Sports Clinic",
+				"description": "Provided specialized physiotherapy services for professional athletes and sports teams. Developed and implemented rehabilitation programs for acute and chronic injuries, emphasizing functional movement patterns and return-to-play protocols.",
+				"tags": ["Athletic Training", "Injury Prevention", "Biomechanics"]
+			},
+			{
+				"icon": "FaHospitalUser",
+				"title": "Junior Physiotherapist",
+				"date": "2014 - 2016",
+				"company": "Community Health Center",
+				"description": "Delivered comprehensive physical therapy interventions to diverse patient populations, including geriatric care, neurological rehabilitation, and musculoskeletal treatments. Collaborated with multidisciplinary healthcare teams to optimize patient outcomes.",
+				"tags": ["Geriatric Care", "Neurological Rehab", "Patient Education"]
+			}
+		]
+	},
+	"certificates": {
+		"title": "Professional Certificates",
+		"items": [
+			{
+				"year": "2019",
+				"title": "Sports Rehabilitation Specialist",
+				"issuer": "International Academy of Orthopedic Medicine",
+				"level": "Advanced",
+				"icon": "FaCertificate",
+				"description": "Comprehensive certification program covering advanced manual therapy techniques for orthopedic conditions. Focused on evidence-based assessment and treatment protocols for complex musculoskeletal disorders."
+			},
+			{
+				"year": "2018",
+				"title": "Sports Rehabilitation Specialist",
+				"issuer": "National Sports Medicine Association",
+				"level": "Professional",
+				"icon": "FaCertificate",
+				"description": "Comprehensive certification program covering advanced manual therapy techniques for orthopedic conditions. Focused on evidence-based assessment and treatment protocols for complex musculoskeletal disorders."
+			},
+			{
+				"year": "2017",
+				"title": "Dry Needling Practitioner",
+				"issuer": "Institute of Advanced Physical Therapy",
+				"level": "Specialized",
+				"icon": "FaCertificate",
+				"description": "Comprehensive certification program covering advanced manual therapy techniques for orthopedic conditions. Focused on evidence-based assessment and treatment protocols for complex musculoskeletal disorders."
+			}
+		]
+	}
+}
