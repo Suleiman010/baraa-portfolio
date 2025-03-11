@@ -6,6 +6,8 @@ import 'aos/dist/aos.css';
 import About from './Components/About';
 import Experience from './Components/Experience';
 import Certificate from './Components/Certificate';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 function App() {
 	useEffect(() => {
@@ -18,6 +20,8 @@ function App() {
 			<About />
 			<Experience />
 			<Certificate />
+			<Contact />
+			<Footer />
 		</>
 	);
 }

@@ -87,5 +87,79 @@
 				"description": "Comprehensive certification program covering advanced manual therapy techniques for orthopedic conditions. Focused on evidence-based assessment and treatment protocols for complex musculoskeletal disorders."
 			}
 		]
+	},
+	"contact": {
+		"title": "Get In Touch",
+		"info": {
+			"location": {
+				"title": "Location",
+				"value": "Muscat, Oman"
+			},
+			"email": {
+				"title": "Email",
+				"value": "contact@albaraaphysio.com"
+			},
+			"phone": {
+				"title": "Call",
+				"value": "+968 1234 5678"
+			},
+			"social": {
+				"title": "Follow Me",
+				"links": [
+					{
+						"icon": "FaLinkedin",
+						"url": "https://www.linkedin.com/in/albaraa-almashwakhi-362480318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+					},
+					{ "icon": "FaTwitter", "url": "#" },
+					{ "icon": "FaInstagram", "url": "#" }
+				]
+			}
+		},
+		"form": {
+			"name": {
+				"label": "Name",
+				"placeholder": "Enter your name"
+			},
+			"email": {
+				"label": "Email",
+				"placeholder": "Enter your email"
+			},
+			"message": {
+				"label": "Message",
+				"placeholder": "Enter your message"
+			},
+			"submit": "Send Message"
+		}
+	},
+	"footer": {
+		"title": "ALBRAA ALMASHWAKI",
+		"tagline": "Transforming Lives Through Expert Physiotherapy",
+		"sections": {
+			"links": {
+				"title": "Quick Links",
+				"items": [
+					{ "text": "About", "href": "#about" },
+					{ "text": "Experience", "href": "#experience" },
+					{ "text": "Certificates", "href": "#certificates" },
+					{ "text": "Contact", "href": "#contact" }
+				]
+			},
+			"contact": {
+				"title": "Contact Info",
+				"items": ["Muscat, Oman", "contact@albaraaphysio.com", "+968 1234 5678"]
+			},
+			"social": {
+				"title": "Follow Me",
+				"icons": [
+					{ "icon": "FaLinkedin", "href": "#" },
+					{ "icon": "FaTwitter", "href": "#" },
+					{ "icon": "FaInstagram", "href": "#" }
+				]
+			}
+		},
+		"copyright": {
+			"text": "© {year} Suleiman. All rights reserved.",
+			"name": "Suleiman"
+		}
 	}
 }
