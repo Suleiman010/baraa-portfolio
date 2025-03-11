@@ -119,6 +119,7 @@ html {
 	background: #e5e7eb;
 }
 
+/* Button hover effects */
 .btn-hover-effect {
 	position: relative;
 	overflow: hidden;
@@ -171,6 +172,7 @@ html {
 	width: 300px;
 	height: 300px;
 }
+
 /* Nav item hover effect */
 .nav-item {
 	position: relative;
