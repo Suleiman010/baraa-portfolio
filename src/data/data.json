@@ -1,61 +1,61 @@
 {
 	"hero": {
-		"name": "ALBRAA ALMASHWAKI",
-		"title": "Dedicated Physiotherapist & Rehabilitation Specialist",
+		"name": "ALBARA ALMASHWAKHI",
+		"title": "Physiotherapy & Rehabilitation Specialist",
 		"button": "Learn More",
 		"scrollText": "Scroll Down"
 	},
 	"about": {
 		"title": "About Me",
 		"description": [
-			"I am ALBRAA ALMASHWAKI, a seasoned physiotherapist with extensive experience in rehabilitation therapy and sports medicine. My practice focuses on evidence-based treatments tailored to each patient's unique needs, combining traditional physiotherapy techniques with modern approaches to achieve optimal results.",
-			"With expertise in manual therapy, exercise prescription, and functional rehabilitation, I help patients recover from injuries, manage chronic conditions, and improve their overall quality of life through personalized care plans and ongoing support."
+			"I am Albaraa Almashwakhi, a recent physiotherapy graduate from Istinye University with hands-on clinical training across sports, neurological, and pediatric rehabilitation. Fluent in Arabic, English, and Turkish, I prioritize patient-centered care to restore function and improve quality of life.",
+			"Skilled in manual therapy, Kinesio Taping, and evidence-based rehabilitation techniques, I am passionate about empowering patients to achieve their recovery goals through tailored interventions."
 		],
 		"specializations": {
 			"title": "Specializations",
 			"items": [
-				"Sports Rehabilitation",
-				"Manual Therapy",
-				"Post-operative Rehabilitation",
-				"Chronic Pain Management"
+				"Orthopedic Rehabilitation",
+				"Neurological Rehabilitation",
+				"Pediatric Care",
+				"Sports Injury Management"
 			]
 		},
 		"education": {
 			"title": "Education",
-			"items": ["Bachelor of Physiotherapy"]
+			"items": ["Bachelor of Physiotherapy and Rehabilitation "]
 		},
 		"resumeButton": "View Resume"
 	},
 	"experience": {
-		"title": "Professional Experience",
+		"title": "Clinical Experience",
 		"items": [
 			{
 				"icon": "FaUserMd",
-				"title": "Senior Physiotherapist",
-				"date": "2020 - Present",
-				"company": "Royal Medical Center",
-				"description": "Leading a team of rehabilitation specialists, developing comprehensive treatment plans, and providing hands-on patient care. Specialized in sports injuries and post-operative rehabilitation for high-performance athletes.",
-				"tags": [
-					"Sports Rehabilitation",
-					"Team Leadership",
-					"Clinical Assessment"
-				]
-			},
-			{
-				"icon": "FaRunning",
-				"title": "Physiotherapist",
-				"date": "2016 - 2020",
-				"company": "Elite Sports Clinic",
-				"description": "Provided specialized physiotherapy services for professional athletes and sports teams. Developed and implemented rehabilitation programs for acute and chronic injuries, emphasizing functional movement patterns and return-to-play protocols.",
-				"tags": ["Athletic Training", "Injury Prevention", "Biomechanics"]
+				"title": "Orthopedic & Sports Intern",
+				"date": "60 Days",
+				"company": "IBB Cebeci Sport Club",
+				"description": "Assisted in rehabilitating professional athletes using manual therapy and Kinesio Taping. Collaborated on ACL and frozen shoulder recovery plans.",
+				"tags": ["Sports Injuries", "Manual Therapy", "Athlete Rehabilitation"]
 			},
 			{
 				"icon": "FaHospitalUser",
-				"title": "Junior Physiotherapist",
-				"date": "2014 - 2016",
-				"company": "Community Health Center",
-				"description": "Delivered comprehensive physical therapy interventions to diverse patient populations, including geriatric care, neurological rehabilitation, and musculoskeletal treatments. Collaborated with multidisciplinary healthcare teams to optimize patient outcomes.",
-				"tags": ["Geriatric Care", "Neurological Rehab", "Patient Education"]
+				"title": "Neurology & ICU Intern",
+				"date": "1 Month",
+				"company": "Liv Bahçeşehir Hospital",
+				"description": "Applied pulmonary techniques for ICU patients and supported stroke survivors in regaining mobility.",
+				"tags": ["Neurological Rehab", "ICU Care", "Respiratory Therapy"]
+			},
+			{
+				"icon": "FaUserMd",
+				"title": "Pediatric Intern",
+				"date": "1 Month",
+				"company": "Özel Yıldız Özel Eğitim",
+				"description": "Delivered therapeutic exercises for children with cerebral palsy and Down syndrome.",
+				"tags": [
+					"Pediatric Rehab",
+					"Motor Development",
+					"Neurodevelopmental Therapy"
+				]
 			}
 		]
 	},
@@ -63,28 +63,28 @@
 		"title": "Professional Certificates",
 		"items": [
 			{
-				"year": "2019",
-				"title": "Sports Rehabilitation Specialist",
-				"issuer": "International Academy of Orthopedic Medicine",
-				"level": "Advanced",
+				"year": "2022",
+				"title": "Kinesio Taping Practitioner",
+				"issuer": "Kinesio University",
+				"level": "Certified",
 				"icon": "FaCertificate",
-				"description": "Comprehensive certification program covering advanced manual therapy techniques for orthopedic conditions. Focused on evidence-based assessment and treatment protocols for complex musculoskeletal disorders."
+				"description": "Certified in Kinesio Taping techniques for injury management and performance enhancement."
 			},
 			{
-				"year": "2018",
-				"title": "Sports Rehabilitation Specialist",
-				"issuer": "National Sports Medicine Association",
-				"level": "Professional",
+				"year": "2023",
+				"title": "Clinical Dry Needling",
+				"issuer": "PRIMEPHYSIO",
+				"level": "Certified",
 				"icon": "FaCertificate",
-				"description": "Comprehensive certification program covering advanced manual therapy techniques for orthopedic conditions. Focused on evidence-based assessment and treatment protocols for complex musculoskeletal disorders."
+				"description": "Specialized training in dry needling for musculoskeletal pain relief."
 			},
 			{
-				"year": "2017",
-				"title": "Dry Needling Practitioner",
-				"issuer": "Institute of Advanced Physical Therapy",
-				"level": "Specialized",
+				"year": "2023",
+				"title": "Cupping Therapy",
+				"issuer": "Certified Provider",
+				"level": "Practitioner",
 				"icon": "FaCertificate",
-				"description": "Comprehensive certification program covering advanced manual therapy techniques for orthopedic conditions. Focused on evidence-based assessment and treatment protocols for complex musculoskeletal disorders."
+				"description": "Proficiency in cupping therapy for myofascial release and circulation improvement."
 			}
 		]
 	},
@@ -93,22 +93,22 @@
 		"info": {
 			"location": {
 				"title": "Location",
-				"value": "Muscat, Oman"
+				"value": "Istanbul, Türkiye"
 			},
 			"email": {
 				"title": "Email",
-				"value": "contact@albaraaphysio.com"
+				"value": "baramash3@gmail.com"
 			},
 			"phone": {
 				"title": "Call",
-				"value": "+968 1234 5678"
+				"value": "+90 552 553 84 78"
 			},
 			"social": {
 				"title": "Follow Me",
 				"links": [
 					{
 						"icon": "FaLinkedin",
-						"url": "https://www.linkedin.com/in/albaraa-almashwakhi-362480318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+						"url": "https://www.linkedin.com/in/albaraa-almashwakhi-362480318"
 					},
 					{ "icon": "FaTwitter", "url": "#" },
 					{ "icon": "FaInstagram", "url": "#" }
@@ -146,7 +146,11 @@
 			},
 			"contact": {
 				"title": "Contact Info",
-				"items": ["Muscat, Oman", "contact@albaraaphysio.com", "+968 1234 5678"]
+				"items": [
+					"Istanbul, Türkiye",
+					"baramash3@gmail.com",
+					"+90 552 553 84 78"
+				]
 			},
 			"social": {
 				"title": "Follow Me",

@@ -87,21 +87,6 @@ function Footer() {
 					<p className="text-gray-300 mb-6 max-w-2xl mx-auto">
 						{footer.tagline}
 					</p>
-
-					<form className="max-w-md mx-auto flex flex-col sm:flex-row gap-2">
-						<input
-							type="email"
-							placeholder="Your email address"
-							className="flex-grow px-4 py-2 rounded-md bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-400"
-							aria-label="Email address"
-						/>
-						<button
-							type="submit"
-							className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-md transition-colors duration-300"
-						>
-							Subscribe
-						</button>
-					</form>
 				</div>
 
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-12">
@@ -136,14 +121,6 @@ function Footer() {
 									</li>
 								))}
 							</ul>
-
-							<a
-								href={`mailto:${data.contactEmail || 'info@company.com'}`}
-								className="inline-flex items-center mt-4 text-blue-400 hover:text-blue-300 transition-colors duration-300"
-							>
-								<FaEnvelope className="mr-2" />
-								<span>Email Us</span>
-							</a>
 						</address>
 					</FooterSection>
 
@@ -159,42 +136,12 @@ function Footer() {
 								/>
 							))}
 						</div>
-
-						{/* Business Hours - New Feature */}
-						<div className="text-gray-300 mt-6">
-							<h4 className="font-medium mb-2">Business Hours</h4>
-							<p className="text-sm">Monday - Friday: 9AM - 5PM</p>
-							<p className="text-sm">Weekend: Closed</p>
-						</div>
 					</FooterSection>
 				</div>
 
 				{/* Bottom section with logos and copyright */}
 				<div className="border-t border-gray-700 pt-8 text-center">
-					{/* Payment methods or partners logos could go here */}
-					<div className="flex justify-center space-x-6 mb-6">
-						{/* Example placeholder for partner logos */}
-						<div className="w-12 h-12 bg-gray-700 rounded-md opacity-70 hover:opacity-100 transition-opacity"></div>
-						<div className="w-12 h-12 bg-gray-700 rounded-md opacity-70 hover:opacity-100 transition-opacity"></div>
-						<div className="w-12 h-12 bg-gray-700 rounded-md opacity-70 hover:opacity-100 transition-opacity"></div>
-					</div>
-
 					<p className="text-gray-400 text-sm mb-2">{copyrightText}</p>
-					<p className="text-gray-500 text-xs">
-						<a
-							href="/privacy"
-							className="hover:text-gray-300 transition-colors"
-						>
-							Privacy Policy
-						</a>{' '}
-						|
-						<a
-							href="/terms"
-							className="hover:text-gray-300 transition-colors ml-2"
-						>
-							Terms of Service
-						</a>
-					</p>
 				</div>
 			</div>
 		</footer>
