@@ -5,6 +5,7 @@ import {
 	FaInstagram,
 	FaEnvelope,
 	FaArrowUp,
+	FaHeartbeat,
 } from 'react-icons/fa';
 import data from '../data/data.json';
 

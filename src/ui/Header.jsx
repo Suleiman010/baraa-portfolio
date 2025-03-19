@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { FaHeartbeat } from 'react-icons/fa';
 import { RxHamburgerMenu } from 'react-icons/rx';
 
 function Header() {
@@ -14,7 +15,7 @@ function Header() {
 					href="#"
 					className="text-xl md:text-2xl font-bold text-blue-600 flex items-center space-x-2"
 				>
-					<i className="fas fa-heartbeat text-blue-600"></i>
+					<FaHeartbeat className="text-blue-600" />
 					<span>
 						<span className="text-gray-800">ALBRAA</span> ALMASHWAKI
 					</span>
