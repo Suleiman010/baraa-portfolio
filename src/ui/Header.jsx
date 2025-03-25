@@ -14,7 +14,7 @@ function Header() {
 		<header className="sticky top-0 z-50 bg-white shadow-md">
 			<div className="container mx-auto px-4 py-4 flex justify-between items-center">
 				<a
-					href="/Albaraa"
+					href="/baraa-portfolio"
 					className="text-xl md:text-2xl font-bold text-blue-600 flex items-center space-x-2"
 					aria-label="Home"
 				>
