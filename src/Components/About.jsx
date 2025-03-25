@@ -7,6 +7,7 @@ import {
 } from 'react-icons/fa';
 function About() {
 	const { about } = data;
+	const pdfUrl = 'https://Suleiman010.github.io/baraa-portfolio/Resume.pdf';
 	return (
 		<section id="about" className="py-20 md:py-32 bg-white overflow-hidden">
 			<div className="container mx-auto px-4">
@@ -94,9 +95,9 @@ function About() {
 
 						{/* Resume Button */}
 						<a
-							href="/assets/Albaraa Almashwakhi CV.pdf"
+							href={pdfUrl}
 							target="_blank"
-							id="view-resume-2"
+							rel="noopener noreferrer"
 							className="inline-flex items-center btn-primary-effect bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition shadow-lg"
 						>
 							<FaFilePdf className="mr-2" />
