@@ -7,8 +7,10 @@ import {
 	FaLinkedin,
 	FaTwitter,
 	FaInstagram,
+	FaMailchimp,
 } from 'react-icons/fa';
 import data from '../data/data.json';
+import { CgMail } from 'react-icons/cg';
 function Contact() {
 	const { contact } = data;
 	return (
@@ -79,6 +81,7 @@ function Contact() {
 												FaLinkedin: FaLinkedin,
 												FaTwitter: FaTwitter,
 												FaInstagram: FaInstagram,
+												CgMail: CgMail,
 											}[link.icon];
 
 											return (
@@ -86,7 +89,9 @@ function Contact() {
 													key={index}
 													href={link.url}
 													rel="noreferrer"
-													target="_blank"
+													target={
+														link.url.startsWith('mailto:') ? '_self' : '_blank'
+													}
 													className="text-blue-600 hover:text-blue-800 transition"
 												>
 													<IconComponent className="text-2xl" />

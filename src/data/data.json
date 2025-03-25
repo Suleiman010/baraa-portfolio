@@ -1,4 +1,16 @@
 {
+	"header": {
+		"name": {
+			"prefix": "ALBRAA",
+			"suffix": "ALMASHWAKI"
+		},
+		"navLinks": [
+			{ "id": 1, "title": "About", "href": "#about" },
+			{ "id": 2, "title": "Experience", "href": "#experience" },
+			{ "id": 3, "title": "Certificates", "href": "#certificates" },
+			{ "id": 4, "title": "Contact", "href": "#contact" }
+		]
+	},
 	"hero": {
 		"name": "ALBARA ALMASHWAKHI",
 		"title": "Physiotherapy & Rehabilitation Specialist",
@@ -155,14 +167,14 @@
 				"value": "+90 552 553 84 78"
 			},
 			"social": {
-				"title": "Follow Me",
+				"title": "My Socails",
 				"links": [
 					{
 						"icon": "FaLinkedin",
 						"url": "https://www.linkedin.com/in/albaraa-almashwakhi-362480318"
 					},
 					{ "icon": "FaTwitter", "url": "#" },
-					{ "icon": "FaInstagram", "url": "#" }
+					{ "icon": "CgMail", "url": "mailto:baramash3@gmail.com" }
 				]
 			}
 		},
@@ -204,11 +216,15 @@
 				]
 			},
 			"social": {
-				"title": "Follow Me",
+				"title": "My Socails",
 				"icons": [
-					{ "icon": "FaLinkedin", "href": "#" },
+					{
+						"icon": "FaLinkedin",
+						"href": "https://www.linkedin.com/in/albaraa-almashwakhi-362480318"
+					},
 					{ "icon": "FaTwitter", "href": "#" },
-					{ "icon": "FaInstagram", "href": "#" }
+
+					{ "icon": "FaEnvelope", "href": "mailto:baramash3@gmail.com" }
 				]
 			}
 		},

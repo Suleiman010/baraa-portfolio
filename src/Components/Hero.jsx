@@ -5,12 +5,12 @@ import data from '../data/data.json';
 function Hero() {
 	const { hero } = data;
 	return (
-		<section className="hero-bg h-screen flex items-center justify-center text-white relative">
+		<section className="hero-bg overflow-x-hidden h-screen flex items-center justify-center text-white relative">
 			<div className="container mx-auto px-4 text-center relative z-10">
 				<h1
 					data-aos="fade-down"
 					data-aos-duration="1000"
-					className="text-5xl md:text-7xl font-bold mb-4 tracking-tight"
+					className="text-2xl sm:text-5xl md:text-7xl font-bold mb-4 tracking-tight"
 				>
 					{hero.name}
 				</h1>
@@ -18,7 +18,7 @@ function Hero() {
 					data-aos="fade-up"
 					data-aos-duration="1000"
 					data-aos-delay="200"
-					className="text-xl md:text-2xl mb-10 leading-relaxed"
+					className="text-sm sm:text-xl md:text-2xl mb-10 leading-relaxed"
 				>
 					{hero.title}
 				</p>

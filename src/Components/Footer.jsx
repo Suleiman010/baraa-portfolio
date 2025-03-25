@@ -3,9 +3,8 @@ import {
 	FaLinkedin,
 	FaTwitter,
 	FaInstagram,
-	FaEnvelope,
 	FaArrowUp,
-	FaHeartbeat,
+	FaEnvelope,
 } from 'react-icons/fa';
 import data from '../data/data.json';
 
@@ -13,7 +12,7 @@ const SocialIcon = memo(({ type, href, label }) => {
 	const icons = {
 		FaLinkedin: FaLinkedin,
 		FaTwitter: FaTwitter,
-		FaInstagram: FaInstagram,
+		FaEnvelope,
 		// Add more icons as needed
 	};
 
@@ -24,7 +23,7 @@ const SocialIcon = memo(({ type, href, label }) => {
 		<a
 			href={href}
 			className="text-white hover:text-blue-400 transform hover:scale-110 transition-all duration-300"
-			target="_blank"
+			target={href.startsWith('mailto:') ? '_self' : '_blank'}
 			rel="noopener noreferrer"
 			aria-label={label || `Visit our ${type.replace('Fa', '')}`}
 		>
@@ -67,7 +66,7 @@ function Footer() {
 	};
 
 	return (
-		<footer className="bg-gradient-to-br from-gray-900 to-gray-800 text-white py-16 relative">
+		<footer className="bg-gradient-to-br overflow-hidden from-gray-900 to-gray-800 text-white py-16 relative">
 			{/* Scroll to top button */}
 			<button
 				onClick={scrollToTop}

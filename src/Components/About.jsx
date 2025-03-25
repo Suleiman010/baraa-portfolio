@@ -20,7 +20,7 @@ function About() {
 						<div className="relative">
 							<div className="rounded-full overflow-hidden w-64 h-64 mx-auto shadow-xl relative z-10">
 								<img
-									src="/assets/japan-background-digital-art.jpg"
+									src="baraa.jpg"
 									alt="ALBRAA ALMASHWAKI"
 									className="w-full h-full object-cover"
 								/>
