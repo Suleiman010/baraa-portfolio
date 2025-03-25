@@ -1,17 +1,11 @@
 import React, { memo, useState } from 'react';
-import {
-	FaLinkedin,
-	FaTwitter,
-	FaInstagram,
-	FaArrowUp,
-	FaEnvelope,
-} from 'react-icons/fa';
+import { FaLinkedin, FaTwitter, FaArrowUp, FaEnvelope } from 'react-icons/fa';
 import data from '../data/data.json';
 
 const SocialIcon = memo(({ type, href, label }) => {
 	const icons = {
-		FaLinkedin: FaLinkedin,
-		FaTwitter: FaTwitter,
+		FaLinkedin,
+		FaTwitter,
 		FaEnvelope,
 		// Add more icons as needed
 	};

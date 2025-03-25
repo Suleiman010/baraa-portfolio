@@ -6,8 +6,6 @@ import {
 	FaCommentDots,
 	FaLinkedin,
 	FaTwitter,
-	FaInstagram,
-	FaMailchimp,
 } from 'react-icons/fa';
 import data from '../data/data.json';
 import { CgMail } from 'react-icons/cg';
@@ -78,10 +76,9 @@ function Contact() {
 									<div className="flex space-x-4">
 										{contact.info.social.links.map((link, index) => {
 											const IconComponent = {
-												FaLinkedin: FaLinkedin,
-												FaTwitter: FaTwitter,
-												FaInstagram: FaInstagram,
-												CgMail: CgMail,
+												FaLinkedin,
+												FaTwitter,
+												CgMail,
 											}[link.icon];
 
 											return (
