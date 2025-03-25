@@ -25,7 +25,7 @@ html {
 /* Hero background */
 .hero-bg {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
-		url('/assets/japan-background-digital-art.jpg');
+		url('/public/landing.jpg');
 	background-size: cover;
 	background-position: center;
 	position: relative;
@@ -40,8 +40,8 @@ html {
 	height: 100%;
 	background: linear-gradient(
 		45deg,
-		rgba(59, 130, 246, 0.3),
-		rgba(37, 99, 235, 0.3)
+		rgba(59, 130, 246, 0.4),
+		rgba(37, 99, 235, 0.4)
 	);
 }
 

@@ -1,6 +1,7 @@
 import { FaCertificate, FaArrowRight, FaTimes } from 'react-icons/fa';
 import data from '../data/data.json';
 import { useState } from 'react';
+
 function Certificate() {
 	const { certificates } = data;
 
@@ -94,37 +95,41 @@ function Certificate() {
 							data-aos="zoom-in"
 							data-aos-duration="1000"
 							data-aos-delay={index * 100}
-							className="certificate-card bg-white rounded-xl overflow-hidden shadow-lg"
+							className="certificate-card bg-white rounded-xl overflow-hidden shadow-lg transition-all duration-300 hover:shadow-xl"
 						>
-							{/* ... existing certificate card content ... */}
-
-							<div className="h-56 bg-gradient-to-r from-blue-500 to-blue-700 relative flex items-center justify-center">
-								<img
-									src="/api/placeholder/400/300"
-									alt={`Certificate ${index + 1}`}
-									className="w-full h-full object-cover opacity-10"
-								/>
-								<div className="absolute inset-0 flex items-center justify-center">
-									<FaCertificate className="text-white text-5xl certificate-icon" />
-								</div>
-								<div className="absolute top-4 right-4 bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full text-white text-sm">
-									{certificate.year}
-								</div>
+							{/* Image Container */}
+							<div className="h-56 w-full relative overflow-hidden">
+								{certificate.image ? (
+									<img
+										src={certificate.image}
+										alt={`Certificate ${index + 1}`}
+										className="w-full h-full object-cover absolute inset-0 group-hover:scale-105 transition-transform duration-300"
+									/>
+								) : (
+									<div className="w-full h-full flex items-center justify-center bg-gray-100">
+										<FaCertificate className="text-gray-400 text-5xl" />
+									</div>
+								)}
 							</div>
+
+							{/* Card Content */}
 							<div className="p-6">
-								<h3 className="text-xl font-bold text-gray-800 mb-3">
+								<h3 className="text-xl font-bold text-gray-800 mb-2">
 									{certificate.title}
 								</h3>
-								<p className="text-gray-600 mb-4">{certificate.issuer}</p>
+								<p className="text-gray-600 mb-4 text-sm">
+									{certificate.issuer}
+								</p>
 								<div className="flex justify-between items-center">
-									<span className="px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-sm font-semibold">
-										{certificate.level}
+									<span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-xs">
+										{certificate.year} • {certificate.level}
 									</span>
 									<button
 										onClick={() => setSelectedCertificate(certificate)}
-										className="text-blue-600 hover:text-blue-800 transition flex items-center gap-2 text-sm font-medium"
+										className="text-blue-600 hover:text-blue-800 transition flex items-center gap-2 text-sm font-medium group"
 									>
-										View Details <FaArrowRight />
+										View Details
+										<FaArrowRight className="transition-transform group-hover:translate-x-1" />
 									</button>
 								</div>
 							</div>

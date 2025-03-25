@@ -63,6 +63,7 @@
 		"title": "Professional Certificates",
 		"items": [
 			{
+				"image": "certificates/taping-cert.jpg",
 				"year": "2022",
 				"title": "Kinesio Taping Practitioner",
 				"issuer": "Kinesio University",
@@ -71,6 +72,7 @@
 				"description": "Certified in Kinesio Taping techniques for injury management and performance enhancement."
 			},
 			{
+				"image": "certificates/dry-need-cert.jpg",
 				"year": "2023",
 				"title": "Clinical Dry Needling",
 				"issuer": "PRIMEPHYSIO",
@@ -79,10 +81,11 @@
 				"description": "Specialized training in dry needling for musculoskeletal pain relief."
 			},
 			{
+				"image": "certificates/cupping-cert.jpg",
 				"year": "2023",
 				"title": "Cupping Therapy",
-				"issuer": "Certified Provider",
-				"level": "Practitioner",
+				"issuer": "SmartPhysio International LTD",
+				"level": "Certified",
 				"icon": "FaCertificate",
 				"description": "Proficiency in cupping therapy for myofascial release and circulation improvement."
 			}
