@@ -1,5 +1,16 @@
 import data from '../data/data.json';
-import { FaUserMd, FaRunning, FaHospitalUser } from 'react-icons/fa';
+import {
+	FaRunning,
+	FaLungs,
+	FaBrain,
+	FaChild,
+	FaShoePrints,
+	FaHandsHelping,
+	FaCrutch,
+	FaUserMd,
+	FaHeartbeat,
+	FaProcedures,
+} from 'react-icons/fa';
 
 function Experience() {
 	const { experience } = data;
@@ -23,9 +34,16 @@ function Experience() {
 				<div className="max-w-3xl mx-auto relative pl-10 border-l-2 border-gray-200">
 					{experience.items.map((item, index) => {
 						const IconComponent = {
-							FaUserMd: FaUserMd,
-							FaRunning: FaRunning,
-							FaHospitalUser: FaHospitalUser,
+							FaRunning,
+							FaLungs,
+							FaBrain,
+							FaChild,
+							FaShoePrints,
+							FaHandsHelping,
+							FaCrutch,
+							FaUserMd,
+							FaHeartbeat,
+							FaProcedures,
 						}[item.icon];
 
 						return (

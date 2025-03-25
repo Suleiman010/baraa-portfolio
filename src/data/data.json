@@ -30,32 +30,80 @@
 		"title": "Clinical Experience",
 		"items": [
 			{
-				"icon": "FaUserMd",
-				"title": "Orthopedic & Sports Intern",
-				"date": "60 Days",
-				"company": "IBB Cebeci Sport Club",
-				"description": "Assisted in rehabilitating professional athletes using manual therapy and Kinesio Taping. Collaborated on ACL and frozen shoulder recovery plans.",
-				"tags": ["Sports Injuries", "Manual Therapy", "Athlete Rehabilitation"]
+				"icon": "FaCrutch",
+				"title": "Orthopedic & Prosthetic Physiotherapist",
+				"date": "3 Months",
+				"company": "Elixir Clinic",
+				"description": "Helped amputees adapt to their new prosthetic limbs through personalized exercises and daily activity training. Worked closely with orthopedic patients to restore mobility and prevent long-term complications through targeted exercise programs.",
+				"tags": [
+					"Prosthetic Training",
+					"Mobility Restoration",
+					"Injury Prevention"
+				]
 			},
 			{
-				"icon": "FaHospitalUser",
-				"title": "Neurology & ICU Intern",
+				"icon": "FaRunning",
+				"title": "Sports Rehabilitation Intern",
+				"date": "2 Months",
+				"company": "IBB Cebeci Sport Club",
+				"description": "Supported professional athletes through injury recovery, using hands-on therapy and sport-specific exercises. Played key role in developing return-to-play programs for ACL injuries and chronic shoulder conditions.",
+				"tags": [
+					"Athlete Recovery",
+					"Sports Injuries",
+					"Return-to-Play Programs"
+				]
+			},
+			{
+				"icon": "FaLungs",
+				"title": "Critical Care Rehabilitation Intern",
 				"date": "1 Month",
 				"company": "Liv Bahçeşehir Hospital",
-				"description": "Applied pulmonary techniques for ICU patients and supported stroke survivors in regaining mobility.",
-				"tags": ["Neurological Rehab", "ICU Care", "Respiratory Therapy"]
+				"description": "Helped ICU patients regain breathing capacity through chest physiotherapy and airway clearance techniques. Worked with vulnerable patients recovering from COVID-19 and pneumonia to rebuild lung function.",
+				"tags": ["ICU Recovery", "Respiratory Rehab", "Post-COVID Care"]
 			},
 			{
-				"icon": "FaUserMd",
-				"title": "Pediatric Intern",
+				"icon": "FaBrain",
+				"title": "Neurology Rehabilitation Trainee",
+				"date": "2 Months",
+				"company": "GOP Medical Park",
+				"description": "Helped stroke survivors regain independence through balance training and coordination exercises. Developed personalized plans to manage spasticity and improve communication skills in patients with MS and Parkinson's.",
+				"tags": [
+					"Stroke Recovery",
+					"Neurological Conditions",
+					"Mobility Training"
+				]
+			},
+			{
+				"icon": "FaChild",
+				"title": "Pediatric Therapy Intern",
 				"date": "1 Month",
 				"company": "Özel Yıldız Özel Eğitim",
-				"description": "Delivered therapeutic exercises for children with cerebral palsy and Down syndrome.",
+				"description": "Helped children with cerebral palsy and Down syndrome achieve developmental milestones through play-based therapy. Collaborated with families to create home exercise programs supporting motor skill development.",
 				"tags": [
-					"Pediatric Rehab",
-					"Motor Development",
-					"Neurodevelopmental Therapy"
+					"Pediatric Therapy",
+					"Neurodevelopmental Care",
+					"Family-Centered Approach"
 				]
+			},
+			{
+				"icon": "FaShoePrints",
+				"title": "Orthotics Specialist Assistant",
+				"date": "1 Month",
+				"company": "Aktif Ortez Protez",
+				"description": "Worked with patients needing custom braces and supports, from children with scoliosis to adults with chronic foot pain. Helped improve posture and walking patterns through proper orthotic fitting.",
+				"tags": [
+					"Orthotic Fitting",
+					"Posture Correction",
+					"Biomechanical Support"
+				]
+			},
+			{
+				"icon": "FaHandsHelping",
+				"title": "Manual Therapy Apprentice",
+				"date": "1 Month",
+				"company": "RETAFIZ",
+				"description": "Used hands-on techniques to help patients with chronic back pain regain movement and reduce reliance on pain medication. Assisted in developing recovery plans for post-surgical patients and frozen shoulder cases.",
+				"tags": ["Hands-On Therapy", "Pain Management", "Post-Surgical Rehab"]
 			}
 		]
 	},
