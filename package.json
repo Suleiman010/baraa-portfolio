@@ -1,7 +1,7 @@
 {
 	"name": "portfolio-project",
 	"homepage": "https://Suleiman010.github.io/baraa-portfolio/",
-	"private": true,
+	"private": "false",
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
